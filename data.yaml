@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['boar', 'cat', 'dog', 'elk', 'racoon']
+
+roboflow:
+  workspace: dnd4321
+  project: wild-animal2
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/dnd4321/wild-animal2/dataset/3
